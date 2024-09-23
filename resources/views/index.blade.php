@@ -163,7 +163,7 @@
                <div class="col-md-12 ">
                   <div class="cont">
                      <h3> <strong class="multi"> Free Multipurpose Responsive</strong><br>
-                        Landing Page 2019
+                        Landing Page 2024
                      </h3>
                   </div>
                </div>
