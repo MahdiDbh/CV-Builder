@@ -92,7 +92,7 @@
    </div>
    <!-- end contact -->
    <!--  footer -->
-   @include('include.header')
+   @include('include.footer')
    <!-- end footer -->
    <!-- Javascript files-->
    <script src="{{asset('frontend/js/jquery.min.js')}}"></script>

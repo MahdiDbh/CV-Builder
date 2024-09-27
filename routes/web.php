@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\backend\backendcontroller;
 use App\Http\Controllers\frontend\frontendcontroller;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[frontendcontroller::class,'index']);
+Route::get('/user/cv',[backendcontroller::class,'usercv']);
