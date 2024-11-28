@@ -9,7 +9,7 @@ class backendcontroller extends Controller
 {
     public function usercv(){
 
-        return view('backend.dashboard');
+        return view('backend.basicinfo');
     }
 
     public function log(){
