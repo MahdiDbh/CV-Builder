@@ -11,4 +11,9 @@ class backendcontroller extends Controller
 
         return view('backend.dashboard');
     }
+
+    public function log(){
+
+        return view(); 
+    }
 }
