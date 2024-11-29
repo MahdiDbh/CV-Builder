@@ -28,9 +28,18 @@
                               <li class="nav-item">
                                  <a class="nav-link" href="#">About</a>
                               </li>
+                              @auth
                               <li class="nav-item">
-                                 <a class="nav-link" href="#">Contact</a>
+                                 <a class="nav-link" href="{{ route('usercv') }}">CV Profiel</a>
                               </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{{route('user.logout')}}">Log out</a>
+                              </li>
+                              @else
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{{route('login')}}">Log in</a>
+                              </li>
+                              @endauth
                            </ul>
                         </div>
                      </nav>
